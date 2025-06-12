@@ -24,7 +24,7 @@
   "id": "node_042",
   "gps": [37.2521, 127.1159],
   "image": "<base64>",
-  "detected_classes": ["person", "APC"]
+  "detected_classes": ["Soldier", "t-64"]
 }
 ```
 
