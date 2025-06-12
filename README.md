@@ -64,4 +64,4 @@
 아키텍처
 
 
-<img src="Architecture_mermaid.png", width="1000">
+](https://github.com/konkuk-watcher/docs/issues/1#issue-3139962263)
