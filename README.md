@@ -32,3 +32,17 @@
 
 필요 시 로컬 노드 간 직접 메시지 공유(P2P)
 
+
+
+
+📡 기술 스택 개요
+
+| 구성요소      | 기술 방향                                    | 예시                                    |
+| --------- | ---------------------------------------- | ------------------------------------- |
+| 노드 디바이스   | 저전력 GPU + 센서                             | Jetson Nano, Raspberry Pi 4B, EdgeTPU |
+| 데이터 전송    | MQTT / gRPC + 암호화                        | TLS 인증 + 간소화된 메시지                     |
+| 지휘 트리 구조  | 트리 기반 위치-관계 DB                           | Neo4j or RedisGraph                   |
+| 적 탐지 모델   | ResNet/EfficientNet + YOLOv8 + LightHead | AMP 이미지 or 일반 카메라 이미지                 |
+| 전장 분석     | 클러스터링 + GNN or Transformer               | 위치 기반 군집화 + 메시지 패싱                    |
+| 드론 협동     | RL / Rule-based 협공 FSM                   | PyBullet + ROS 기반 시뮬                  |
+| 실시간 상황 공유 | Edge caching + 중계 노드 구성                  | 구역 단위 요약정보 push                       |
