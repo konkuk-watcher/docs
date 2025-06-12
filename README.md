@@ -64,4 +64,4 @@
 아키텍처
 
 
-![Image](https://github.com/user-attachments/assets/91abdf1f-072b-41e2-a779-5576a53902db)
+![Image](https://github.com/user-attachments/assets/d5c62f23-52d0-4703-811f-680e71bb440c)
