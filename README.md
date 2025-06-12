@@ -64,4 +64,4 @@
 아키텍처
 
 
-](https://github.com/konkuk-watcher/docs/issues/1#issue-3139962263)
+![Image](https://github.com/user-attachments/assets/91abdf1f-072b-41e2-a779-5576a53902db)
