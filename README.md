@@ -38,7 +38,7 @@ json
   "gps": [37.2523, 127.1167],
   "detected": [
     {"class": "soldier", "confidence": 0.88},
-    {"class": "truck", "confidence": 0.72}
+    {"class": "tank", "confidence": 0.72}
   ],
   "image_base64": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDA..."
 }
