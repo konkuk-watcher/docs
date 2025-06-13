@@ -30,13 +30,17 @@
 **전송 데이터 구조 (MQTT + TLS):**
 - 다수의 노드에도 빠른 동작을 위해, Tank, BMP등 식별시, 해당 부분 crop한 image 전송
 - 식별되지 않았을 경우에는 image 필수 전송 X
-```json
+```
+json
 {
-  "timestamp": "2025-06-12T22:10:00Z",
-  "id": "node_042",
-  "gps": [37.2521, 127.1159],
-  "image": "<base64>",
-  "detected_classes": ["Soldier", "T-64"]
+  "timestamp": "2025-06-13T14:58:12Z",
+  "node_id": "pi_07",
+  "gps": [37.2523, 127.1167],
+  "detected": [
+    {"class": "soldier", "confidence": 0.88},
+    {"class": "truck", "confidence": 0.72}
+  ],
+  "image_base64": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDA..."
 }
 ```
 
