@@ -48,7 +48,7 @@ json
 
 ### 🧠 서버 / 지휘 체계 기능
 
-#### 🔍 CNN 기반 적 탐지
+#### 🔍 CNN 기반 탐지된 적 분류
 - 사전 학습된 모델 사용: `ResNet`, `EfficientNet`  
 - 탱크 / APC / BMP / SPA 등 classification 수행
 
